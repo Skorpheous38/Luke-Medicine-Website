@@ -1,6 +1,11 @@
 .SideContent {
     background-color: rgb(246, 244, 235);
     text-align: center;
+    width: 30%;
+    height: 75%;
+    float: left;
+    position: relative;
+    justify-content: center;
 }
 
 #SChead1 {
@@ -20,4 +25,14 @@
 #pf {
     color: rgb(70, 130, 169);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#scImage {
+    width: 350px;
+    height: 350px;
+}
+
+#scDiv {
+    float: left;
+    padding: 10px;
 }

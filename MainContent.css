@@ -9,7 +9,7 @@
     width: 75%;
     height: 50%;
     text-align: center;
-    position: relative;
+    background-size: cover;
 }
 
 #userinputdiv {
@@ -28,7 +28,12 @@
     background-color: rgb(246, 244, 235);
 }
 
-.Blog1 {
+#blogImage {
+    width: 350px;
+    height: 250px;
+}
+
+.Blog {
     background-color: rgb(116, 155, 194);
     color: rgb(246, 244, 235);
     text-align: center;
@@ -39,62 +44,14 @@
     padding-right: 15px;
     padding-left: 15px;
     word-wrap: break-word;
-}
-
-.Blog2 {
-    background-color: rgb(116, 155, 194);
-    color: rgb(246, 244, 235);
-    text-align: center;
-    margin: 10px;
-    float: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    display: inline-block;
-    padding-right: 15px;
-    padding-left: 15px;
-    word-wrap: break-word;
-    
-}
-
-.Blog3 {
-    background-color: rgb(116, 155, 194);
-    color: rgb(246, 244, 235);
-    text-align: center;
-    margin: 10px;
-    float: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    display: inline-block;
-    padding-right: 15px;
-    padding-left: 15px;
-    word-wrap: break-word;
-   
-}
-
-.Blog4 {
-    background-color: rgb(116, 155, 194);
-    color: rgb(246, 244, 235);
-    text-align: center;
-    margin: 10px;
-    float: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    display: inline-block;
-    padding-right: 20px;
-    padding-left: 20px;
-    word-wrap: break-word;
-   
-}
-
-.Blog5 {
-    background-color: rgb(116, 155, 194);
-    color: rgb(246, 244, 235);
-    text-align: center;
-    margin: 10px;
-    float: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    display: inline-block;
+    width: 350px;
+    height: 300;
+    float: left;
+    position: relative;
 }
 
 .blogpar {
-    font-size: 20px;
+    font-size: 15px;
     word-spacing: 5px;
     padding-left: 50px;
     padding-right: 50px;
