@@ -16,13 +16,6 @@
     justify-items: center;
 }
 
-#TheSlogan {
-    color: rgb(248, 248, 248);
-    font-size: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
-}
-
 #links {
     float: left;
     padding-left: 15px;
@@ -32,12 +25,12 @@
 #dropdown2 .navbutton {
     border: none;
     outline: none;
-    font-size: 20px;
+    font-size: 17.5px;
     padding-left: 30px;
     padding-right: 30px;
     margin: 0px;
     background-color: inherit;
-    font-family: inherit;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .dropdown {
@@ -73,16 +66,18 @@
 
 .dropdown a:hover {
     background-color: rgb(145, 200, 228);
-    color: rgb(255, 255, 255);
+    color: white;
 }
-
+.dropdown a:active {
+    background-color: rgb(116, 155, 194);
+    color: white;
+}
 #dropdown2:hover .dropdown {
     display: block;
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 15px;
     padding-bottom: 15px;
-    transition-duration: 2s;
     background-image: url('https://media.istockphoto.com/id/946853908/photo/white-concrete-wall-texture-background.jpg?s=612x612&w=0&k=20&c=P0pbk5yfFdj15uN8maFf1zQL_1JeeBA_ysXY8EqpSoU=');
 }
 #dropdown2 {
@@ -100,4 +95,5 @@
 #theNavDiv {
     background-color: rgb(116, 155, 194);
     justify-content: center;
+    text-align: center;
 }

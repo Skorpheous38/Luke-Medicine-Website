@@ -9,8 +9,9 @@
     <link rel="stylesheet" type="text/css" href="SideContent.css">
     <link rel="stylesheet" type="text/css" href="Footer.css">
     <script src="myscript.js"></script>
+    
     <body>
-
+    <?php include 'Back-end_LukeMedicine.php';?>
         
         <header>
         <div class="container">
@@ -20,89 +21,90 @@
             <br>
         </div>
         </header>
-       
-        <nav class="TheNavigation">
-            <div id="theNavDiv">
-                <div id="dropdown2">
-                    <button class="navbutton">Pharmacy</button>
-                    <div class="dropdown">
-                        <a href="">Branches</a>
-                        <a href="">Managers</a>
-                        <a href="">Locations</a>
-                    </div>
-                </div>
 
-                <div  id="dropdown2">
-                    <button class="navbutton">Careers</button>
-                        <div class="dropdown">
-                            <div id="links">
-                                <h4>Hiring</h4>
-                                <a href="">Available Jobs</a>
-                                <a href="">Vacant Positions</a>
-                            </div>
-                            <div id="links">
-                                <h4>Location</h4>
-                                <a href="">Branch Hiring</a>
-                            </div>
-                        </div>
-                </div>
-                <div id="dropdown2">
-                    <button class="navbutton">Medicine</button>
-                        <div class="dropdown">
-                            <div id="links">
-                                <h4>Trending</h4>
-                                <a href="">Popular</a>
-                                <a href="">Best Deal</a>
-                            </div>
-                            <div id="links">
-                                <h4>Oral Medication</h4>
-                                <a href="">Capsules</a>
-                                <a href="">Tablets</a>
-                                <a href="">Inhalers</a>
-                            </div>
-                        </div>
-                </div>
-
-                <div id="dropdown2">
-                    <button class="navbutton">History</button>
-                        <div class="dropdown">
-                            <a href="">Founder</a>
-                            <a href="">Progress </a>
-                            <a href="">Global Extension</a>
-                        </div>
-                </div>
+        <div id="theNavDiv"></div>
+            <nav class="TheNavigation">
                 
-                <div id="dropdown2">
-                    <button class="navbutton">About Us</button>
+                    <div id="dropdown2">
+                        <button class="navbutton">Pharmacy</button>
                         <div class="dropdown">
-                            <div id="links">
-                                <h4>Mission and Vision</h4>
-                                <a href="">Mission</a>
-                                <a href="">Vision</a>
-                            </div>
-                            <div id="links">
-                                <h4>Awards</h4>
-                                <a href="">Certifications</a>
-                                <a href="">Plaques</a>
-                            </div>
-                            <div id="links">
-                                <h4>Association</h4>
-                                <a href="">Partners</a>
-                            </div>
-                            <div id="links"> 
-                                <h4>Educational Support</h4>
-                                <a href="">Scholarships</a>
-                            </div>
+                            <a href="">Branches</a>
+                            <a href="">Managers</a>
+                            <a href="">Locations</a>
                         </div>
-                </div>
-                    <input type="text" placeholder="Something..." id="searchbar" name="searchbar">
-                    <input type="button" id="navbarbutton" onclick="alert('Hello Patient!')" value="Search">
-                </div>
-            </div>
-        </nav>
+                    </div>
 
+                    <div  id="dropdown2">
+                        <button class="navbutton">Careers</button>
+                            <div class="dropdown">
+                                <div id="links">
+                                    <h4>Hiring</h4>
+                                    <a href="">Available Jobs</a>
+                                    <a href="">Vacant Positions</a>
+                                </div>
+                                <div id="links">
+                                    <h4>Location</h4>
+                                    <a href="">Branch Hiring</a>
+                                </div>
+                            </div>
+                    </div>
+                    <div id="dropdown2">
+                        <button class="navbutton">Medicine</button>
+                            <div class="dropdown">
+                                <div id="links">
+                                    <h4>Trending</h4>
+                                    <a href="">Popular</a>
+                                    <a href="">Best Deal</a>
+                                </div>
+                                <div id="links">
+                                    <h4>Oral Medication</h4>
+                                    <a href="">Capsules</a>
+                                    <a href="">Tablets</a>
+                                    <a href="">Inhalers</a>
+                                </div>
+                            </div>
+                    </div>
 
+                    <div id="dropdown2">
+                        <button class="navbutton">History</button>
+                            <div class="dropdown">
+                                <a href="">Founder</a>
+                                <a href="">Progress </a>
+                                <a href="">Global Extension</a>
+                            </div>
+                    </div>
+                    
+                    <div id="dropdown2">
+                        <button class="navbutton">About Us</button>
+                            <div class="dropdown">
+                                <div id="links">
+                                    <h4>Mission and Vision</h4>
+                                    <a href="">Mission</a>
+                                    <a href="">Vision</a>
+                                </div>
+                                <div id="links">
+                                    <h4>Awards</h4>
+                                    <a href="">Certifications</a>
+                                    <a href="">Plaques</a>
+                                </div>
+                                <div id="links">
+                                    <h4>Association</h4>
+                                    <a href="">Partners</a>
+                                </div>
+                                <div id="links"> 
+                                    <h4>Educational Support</h4>
+                                    <a href="">Scholarships</a>
+                                </div>
+                            </div>
+                    </div>
+                        <input type="text" placeholder="Something..." id="searchbar" name="searchbar">
+                        <input type="button" id="navbarbutton" onclick="alert('Hello Patient!')" value="Search">
+                    </div>
+                
+            </nav>
+        </div>
 
+        <?php echo
         <main>
 
             <div id="videoinmain">
