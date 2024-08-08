@@ -13,19 +13,14 @@
 }
 
 #userinputdiv {
-    background-color: rgb(246, 244, 235);
+    background-color: rgb(246, 241, 241);
     width: 500px;
 }
 
 #label {
-    color: rgb(70, 130, 169);
+    color: rgb(20, 108, 148);
     border-radius: 30%;
     text-align: left;
-}
-
-.BlogClass {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: rgb(246, 244, 235);
 }
 
 #blogImage {
@@ -33,83 +28,70 @@
     height: 250px;
 }
 
-.Blog {
-    background-color: rgb(116, 155, 194);
-    color: rgb(246, 244, 235);
-    text-align: center;
-    margin: 10px;
-    float: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    display: inline-block;
-    padding-right: 15px;
-    padding-left: 15px;
-    word-wrap: break-word;
-    width: 350px;
-    height: 300;
-    float: left;
-    position: relative;
-}
-
-.blogpar {
-    font-size: 15px;
-    word-spacing: 5px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
 .UserInput {
-    background-color: rgb(116, 155, 194);
-    color: rgb(246, 244, 235);
+    background-color: rgb(172, 226, 225);
+    color: rgb(246, 241, 241);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: auto;
 }
 
-
 #fname {
     width: 50%;
-    border: 1px solid rgb(70, 130, 169);
+    border: 1px solid rgb(20, 108, 148);
 }
 
 #lname {
     width: 50%;
-    border: 1px solid rgb(70, 130, 169);
+    border: 1px solid rgb(20, 108, 148);
 }
 
 #middleinitial {
     width: 50%; 
-    border: 1px solid rgb(70, 130, 169);
+    border: 1px solid rgb(20, 108, 148);
 }
 
 #genderselect {
     width: 25%;
-    border: 1px solid rgb(70, 130, 169);
+    border: 1px solid rgb(20, 108, 148);
 }
 
 #birthdate {
     width: 25%;
-    border: 1px solid rgb(70, 130, 169);
+    border: 1px solid rgb(20, 108, 148);
 }
 
 #phonenumber {
     width: 50%;
-    border: 1px solid rgb(70, 130, 169);
+    border: 1px solid rgb(20, 108, 148);
 }
 
 #gmail {
     width: 50%;
-    border: 1px solid rgb(70, 130, 169);
+    border: 1px solid rgb(20, 108, 148);
 }
 
 #homeaddress {
     width: 50%;
-    border: 1px solid rgb(70, 130, 169);
+    border: 1px solid rgb(20, 108, 148);
+}
+#submitbutton {
+    background-color: rgb(246, 241, 241);
+    color: rgb(65, 201, 226);
+    border-radius: 15%;
+    border-color: white;
+    height: 35%;
+    width: 3%;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
-
-
-#blogimage {
-    width: 200px;
-    height: 200px;
-    overflow: hidden;
-    text-align: center;
+#resetbutton {
+    background-color: rgb(236, 101, 77);
+    color: rgb(128, 123, 123);
+    border-radius: 15%;
+    border-color: white;
+    height: 35%;
+    width: 3%;
+    padding-left: 10px;
+    padding-right: 10px;
 }

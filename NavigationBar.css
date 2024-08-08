@@ -1,19 +1,29 @@
-
 #navbarbutton {
-    background-color: rgb(255, 255, 255);
-    color: rgb(70, 130, 169);
+    background-color: rgb(246, 241, 241);
+    color: rgb(20, 108, 148);
     border-radius: 5px;
     border: none;
+    width: 3%;
+    height: 10%;
+    font-size: 75%;
+}
 
+#navbarbutton:active {
+    background-color: rgb(246, 241, 241);
+    box-shadow: 5px 5px 5px rgb(211, 211, 211) inset;
+    font-size: 70%;
+}
+
+#navbarbutton:hover {
+    background-color: rgb(246, 241, 241);
+    box-shadow: 7px 7px 5px rgb(211, 211, 211) inset;
+    font-size: 70%;
 }
 
 .navbutton {
-    color: rgb(255, 255, 255);
-    background-color: rgb(116, 155, 194);
+    color: rgb(246, 241, 241);
+    background-color: rgb(25, 167, 206);
     border: none;
-    width: 150px;
-    height: 50px;
-    justify-items: center;
 }
 
 #links {
@@ -34,30 +44,32 @@
 }
 
 .dropdown {
-    color: rgb(70, 130, 169);
+    color: rgb(20, 108, 148);
     position: absolute;
     display: none;
-    background-color: rgb(246, 244, 235);
+    background-color: rgb(246, 241, 241);
     z-index: 5;
-    min-width: 160px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 25%;
 }
 .dropdown h4 a {
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 50%;
+    padding-right: 50%;
 }
 
 .dropdown a {
     line-height: 1.5px;
+    font-size: 100%;
 }
 
 .dropdown h4 {
     text-align: center;
+    font-size: 120%;
 }
 
 .dropdown a {
     float: none;
-    color: rgb(70, 130, 169);
+    color: rgb(20, 108, 148);
     text-decoration: none;
     padding: 20px 20px;
     display: block;
@@ -65,11 +77,11 @@
 }
 
 .dropdown a:hover {
-    background-color: rgb(145, 200, 228);
+    background-color: rgb(25, 167, 206);
     color: white;
 }
 .dropdown a:active {
-    background-color: rgb(116, 155, 194);
+    background-color: rgb(175, 211, 226);
     color: white;
 }
 #dropdown2:hover .dropdown {
@@ -84,16 +96,25 @@
     float: left;
 }
 #searchbar {
-    border-color: rgb(116, 155, 194);
+    border-color: rgb(175, 211, 226);
+    background-color: rgb(246, 241, 241);
+    width: 10%;
+    height: 30%;
+    border-radius: 5px;
 }
+
+#searchbar:active {
+    border-color: rgb(246, 241, 241);
+    color: rgb(20, 108, 148);
+}
+
 .TheNavigation {
-    background-color: rgb(116, 155, 194);
-    color: rgb(255, 255, 255);
+    background-color: rgb(175, 211, 226);
+    color: rgb(246, 241, 241);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    height: 60px;
+    height: 25%;
 }
 #theNavDiv {
-    background-color: rgb(116, 155, 194);
-    justify-content: center;
-    text-align: center;
+    background-color: rgb(25, 167, 206);
+    height: 100%;
 }

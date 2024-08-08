@@ -11,7 +11,6 @@
     <script src="myscript.js"></script>
     
     <body>
-    <?php include 'Back-end_LukeMedicine.php';?>
         
         <header>
         <div class="container">
@@ -22,9 +21,9 @@
         </div>
         </header>
 
-        <div id="theNavDiv"></div>
-            <nav class="TheNavigation">
-                
+       
+        <nav class="TheNavigation">
+            <div id="theNavDiv">    
                     <div id="dropdown2">
                         <button class="navbutton">Pharmacy</button>
                         <div class="dropdown">
@@ -39,12 +38,13 @@
                             <div class="dropdown">
                                 <div id="links">
                                     <h4>Hiring</h4>
-                                    <a href="">Available Jobs</a>
-                                    <a href="">Vacant Positions</a>
+                                    <a href="">Jobs</a>
+                                    <a href="">Positions</a>
                                 </div>
                                 <div id="links">
                                     <h4>Location</h4>
-                                    <a href="">Branch Hiring</a>
+                                    <a href="">Branches</a>
+                                    <a href="">Main Office</a>
                                 </div>
                             </div>
                     </div>
@@ -58,9 +58,19 @@
                                 </div>
                                 <div id="links">
                                     <h4>Oral Medication</h4>
-                                    <a href="">Capsules</a>
-                                    <a href="">Tablets</a>
-                                    <a href="">Inhalers</a>
+                                    <a href="">Capsule</a>
+                                    <a href="">Tablet</a>
+                                </div>
+                                <div id="links">
+                                    <h4>Injectable</h4>
+                                    <a href="">Intradermal</a>
+                                    <a href="">Subcutaneous</a>
+                                    <a href="">Intramascular</a>
+                                </div>
+                                <div id="links">
+                                    <h4>Inhaler</h4>
+                                    <a href="">pMDI</a>
+                                    <a href="">DPI</a>
                                 </div>
                             </div>
                     </div>
@@ -73,6 +83,31 @@
                                 <a href="">Global Extension</a>
                             </div>
                     </div>
+
+                    <div id="dropdown2">
+                        <button class="navbutton">News</button>
+                        <div class="dropdown">
+                            <div id="links">
+                                <h4>Trends</h4>
+                                <a href="">State</a>
+                                <a href="">National</a>
+                                <a href="">Global</a>
+                            </div>
+                            <div id="links">
+                                <h4>Category</h4>
+                                <a href="">Technology</a>
+                                <a href="">Innovation</a>
+                                <a href="">Satire</a>
+                                <a href="">Serious</a>
+                            </div>
+                            <div id="links">
+                                <h4>Alert</h4>
+                                <a href="">COVID-19</a>
+                                <a href="">Swine Fever</a>
+                                <a href="">Cancer</a>
+                            </div>
+                        </div>
+                    </div>
                     
                     <div id="dropdown2">
                         <button class="navbutton">About Us</button>
@@ -83,26 +118,33 @@
                                     <a href="">Vision</a>
                                 </div>
                                 <div id="links">
+                                    <h4>Organization</h4>
+                                    <a href="">Core Team</a>
+                                    <a href="">Directors</a>
+                                </div>
+                                <div id="links">
                                     <h4>Awards</h4>
-                                    <a href="">Certifications</a>
-                                    <a href="">Plaques</a>
+                                    <a href="">Certification</a>
+                                    <a href="">Plaque</a>
                                 </div>
                                 <div id="links">
                                     <h4>Association</h4>
-                                    <a href="">Partners</a>
+                                    <a href="">Partner</a>
+                                    <a href="">Group</a>
                                 </div>
                                 <div id="links"> 
                                     <h4>Educational Support</h4>
-                                    <a href="">Scholarships</a>
+                                    <a href="">Scholarship</a>
+                                    <a href="">Assistance</a>
                                 </div>
                             </div>
                     </div>
                         <input type="text" placeholder="Something..." id="searchbar" name="searchbar">
                         <input type="button" id="navbarbutton" onclick="alert('Hello Patient!')" value="Search">
                     </div>
-                
-            </nav>
-        </div>
+            </div>   
+        </nav>
+        
 
         <?php echo
         <main>
@@ -114,69 +156,8 @@
             </video>
             </div>
 
-            <section class="BlogClass">
-
-            <a href="">
-                <div class="Blog">
-                <h2>Popular</h2>
-                <img id="blogImage" src="https://img.freepik.com/free-vector/coronavirus-medical-products-flyer-template-with-photo_23-2148824609.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1721606400&semt=ais_user" alt="COVID-19 Products for sale.">
-                <p class="blogpar">Get some of our most popularly ordered medicine with many varieties, get into the trends right now!</p>
-            </div>
-            </a>
-
-            <a href="">
-            <div class="Blog">
-                <h2>Hot Deal</h2>
-                <img id="blogImage" src="https://img.freepik.com/premium-vector/big-christmas-sale-medicines-medical-services-black-friday-discounts_497982-97.jpg" alt="Big sale of medical drugs.">
-                <p class="blogpar">A hot deal is coming this August, you better watch out for lowered prices of premium medicines here only in Luke Medicine.</p>
-            </div>
-            </a>
-
-            <a href="">
-            <div class="Blog">
-                <h2>Limited Time Only</h2>
-                <img id="blogImage" src="https://www.cshl.edu/wp-content/uploads/2022/01/Covid-19_trial.jpg" alt="Two containers of medical drugs.">
-                <p class="blogpar">Get our limited time only deals here only in Luke Medicine. Get our limited stocks of medicines for respiratory diseases, and have the chance to win some for FREE!</p>
-            </div>
-            </a>
-
-            <a href="">
-            <div class="Blog">
-                <h2>Capsules</h2>
-                <img id="blogImage" src="https://www.collinsdictionary.com/images/full/capsule_639127393_1000.jpg" alt="An image of medical capsules.">
-                <p class="blogpar">Get our best capsules for your grandparents, grandchildren, parents, children, wife, husband, or to anyone whom you loved.</p>
-            </div>
-            </a>
-
-            <a href="">
-            <div class="Blog">
-                <h2>Tablets</h2>
-                <img id="blogImage" src="https://cdn.sanity.io/images/0vv8moc6/pharmtech/d5843cc30e46f6e27c0087dcad99559a12396ab8-1280x851.jpg" alt="An image of medical tablets.">
-                <p class="blogpar">Have a troat problem, and it is hard to swallow big tablets? Order our easily disolvable tablets with the flavor of your own choice, for your troat problem</p>
-            </div>
-            </a>
-
-            <aside class="SideContent">
-
-                <h3 id="SChead1">Daily Medical News Report</h3>
-
-                <div id="scDiv">
-                <h4 id="SChead2">Hoped Count</h4>
-                <img id="scImage" src="https://i0.wp.com/palawan-news.com/wp-content/uploads/2022/10/nurses.jpg?fit=1200%2C628&ssl=1" alt="An image of graduating filipino and filipina nurses.">
-                <p id="pf">Graduation of registered nurses is expected by some medical doctors to <b>exceed</b> the expected numbers of required nurses abroad.</p>
-                </div>
-
-                <div id="scDiv">
-                <h4 id="SChead2">Reverse Doctor</h4>
-                <img id="scImage" src="https://unlockescaperooms.co.za/wp-content/uploads/2020/03/The-Evil-Doctor-low-res-version-1-1.jpg" alt="A Picture of an evil doctor.">
-                <p id="pf">A doctor caught trying to put a <b>poison</b> to a frying pan at a local restaurant.</p>
-                </div>
-
-                <div id="scDiv">
-                <h4 id="SChead2">Depressing Rate</h4>
-                <img id="scImage" src="https://motionarray.imgix.net/2072044-HqZzs5aZAl-high_0010.jpg?w=660&q=60&fit=max&auto=format" alt="A red bar chart with increasing rate.">
-                <p id="pf">Increasing rate of depression on adults and children have <b>doubled</b> since the release of a vaccine from Maya Medics.</p>
-                </div>
+            
+            <aside>
 
             </aside>
             <br>
@@ -237,14 +218,16 @@
 
             <div id="footdiv">
             <h3 id="footdivh">Join Us</h3>
-            <p>Careers</p>
-            <p>Branches</p>
-            <p>Participate</p>
+            <a href="">Careers</a>
+            <br>
+            <a href="">Branches</a>
+            <br>
+            <a href="">Participate</a>
             </div>
 
             <div id="footdiv">
             <h3 id="footdivh">Contribute</h3>
-            <p>Donate</p>
+            <a href="">Donate</a>
             </div>
 
         </footer>
