@@ -9,6 +9,15 @@
     text-align: center;
 }
 
+#navlogo {
+    border-radius: 60%;
+    width: 35px;
+    height: 35px;
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
 #navbarbutton:active {
     background-color: rgb(246, 241, 241);
     box-shadow: 5px 5px 5px rgb(211, 211, 211) inset;
