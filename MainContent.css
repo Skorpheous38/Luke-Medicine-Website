@@ -1,8 +1,9 @@
 #videomain {
-    opacity: 0.3;
+    opacity: 0.2;
     position: static;
     width: 100%;
     background-size: contain;
+    justify-content: center;
 }
 
 #videoinmain {
@@ -94,4 +95,8 @@
     width: 3%;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.UserInput h1 {
+    font-size: 200%;
 }

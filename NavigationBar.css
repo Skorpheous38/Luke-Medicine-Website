@@ -28,8 +28,8 @@
 
 #links {
     float: left;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 #dropdown2 .navbutton {
@@ -90,7 +90,7 @@
     padding-right: 15px;
     padding-top: 15px;
     padding-bottom: 15px;
-    background-image: url('https://media.istockphoto.com/id/946853908/photo/white-concrete-wall-texture-background.jpg?s=612x612&w=0&k=20&c=P0pbk5yfFdj15uN8maFf1zQL_1JeeBA_ysXY8EqpSoU=');
+    background-color: rgb(246, 241, 241);
 }
 #dropdown2 {
     float: left;
@@ -109,12 +109,19 @@
 }
 
 .TheNavigation {
-    background-color: rgb(175, 211, 226);
     color: rgb(246, 241, 241);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    height: 25%;
+    height: 50px;
 }
 #theNavDiv {
     background-color: rgb(25, 167, 206);
-    height: 100%;
+    height: 50%;
+}
+
+.naverlin {
+    border-left: 5px dotted rgb(175, 211, 226);
+    height: 250px;
+    float: left;
+    opacity: 0.2px;
+    border-width: 1px;
 }
