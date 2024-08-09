@@ -11,11 +11,9 @@
 
 #navlogo {
     border-radius: 60%;
-    width: 35px;
-    height: 35px;
+    width: 15%;
+    height: 15%;
     float: left;
-    padding-left: 5px;
-    padding-right: 5px;
 }
 
 #navbarbutton:active {

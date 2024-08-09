@@ -24,7 +24,11 @@
 
 #TheSlogan {
     color: rgb(20, 108, 148);
-    font-size: 150%;
+    font-size: 100%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
+}
+
+#HeaderText {
+    line-height: 150%;
 }
