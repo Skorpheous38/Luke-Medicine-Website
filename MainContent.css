@@ -4,6 +4,51 @@
     background-size: contain;
 }
 
+
+
+
+
+#slide_show {
+    width: 10%;
+    height: 10%;
+    padding: 5%;
+    background-color: rgb(158, 158, 158);
+    color: rgb(20, 108, 148);
+}
+
+#image_container {
+    background-color: rgb(175, 211, 226);
+    color: rgb(20, 108, 148);
+    width: 10%;
+    height: 10%;
+    padding: 5%;
+}
+
+#previousButton {
+    background-color: rgb(20, 108, 148);
+    color: white;
+    border-style: none;
+}
+
+#previousButton:active {
+    box-shadow: 5px 5px 5px rgb(145, 145, 145) inset;
+}
+
+#nextButton {
+    background-color: rgb(20, 108, 148);
+    color: white;
+    border-style: none;
+}
+
+#image_here {
+    background-color: rgb(158, 158, 158);
+    color: rgb(65, 201, 226);
+}
+
+
+
+
+
 #videoinmain {
     width: 75%;
     height: 50%;
