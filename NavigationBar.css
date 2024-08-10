@@ -4,14 +4,14 @@
     border-radius: 5px;
     border: none;
     width: 20%;
-    height: 30%;
+    height: 40%;
     font-size: 75%;
     text-align: center;
 }
 #navlogo {
     border-radius: 60%;
-    width: 12.5%;
-    height: 12.5%;
+    width: 15%;
+    height: 50%;
     justify-self: left;
 }
 #navbarbutton:active {
@@ -102,11 +102,13 @@
     border-color: rgb(175, 211, 226);
     background-color: rgb(246, 241, 241);
     width: 70%;
-    height: 30%;
+    height: 35%;
     border-radius: 5px;
 }
 #thesearchbar {
     float: right;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
 }
 .TheNavigation {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
