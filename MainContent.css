@@ -1,7 +1,6 @@
 #videomain {
-    opacity: 0.2;
-    position: static;
-    width: 100%;
+    opacity: 0.5;
+    position: relative;
     background-size: contain;
 }
 
