@@ -103,10 +103,13 @@
 
 #userinputdiv {
     background-color: rgb(211, 224, 234);
-    width: 75%;
-    height: 75%;
     justify-self: center;
-    padding: 2.5%;
+    width: 90%;
+    height: 100%;
+    padding-top: 5%;
+    padding-bottom: 95%;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
 }
 
 #label {
@@ -122,9 +125,14 @@
 
 .UserInput {
     background-color: rgb(246, 245, 245);
-    color: rgb(246, 241, 241);
-    justify-content: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 50%;
+    height: 50%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    padding-left: 25%;
+    padding-right: 25%;
+    justify-self: center;
 }
 
 .UserInput #sign_up_label {
@@ -177,7 +185,7 @@
     border-radius: 15%;
     border-color: white;
     height: 35%;
-    width: 3%;
+    width: 50%;
     padding-right: 10px;
     padding-left: 10px;
 }
@@ -188,7 +196,7 @@
     border-radius: 15%;
     border-color: white;
     height: 35%;
-    width: 3%;
+    width: 50%;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -197,30 +205,33 @@
     font-size: 200%;
 }
 
-#foot_labels {
-    float: left;
-    padding-left: 5%;
-    padding-right: 5%;
-    position: relative;
+#form_labels #form_labels2 #form_labels3 #form_labels4 {
+    position: absolute;
 }
 
-#foot_labels2 {
+#form_labels {
     float: left;
-    padding-left: 5%;
-    padding-right: 5%;
-    position: relative;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    justify-content: center;
 }
 
-#foot_labels3 {
+#form_labels2 {
     float: left;
-    padding-left: 5%;
-    padding-right: 5%;
-    position: relative;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    justify-content: center;
 }
 
-#foot_labels4 {
+#form_labels3 {
     float: left;
-    padding-left: 5%;
-    padding-right: 5%;
-    position: relative;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    justify-content: center;
 }
