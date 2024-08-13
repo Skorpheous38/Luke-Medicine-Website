@@ -7,6 +7,7 @@
     height: 40%;
     font-size: 75%;
     text-align: center;
+    cursor: pointer;
 }
 #navlogo {
     border-radius: 60%;
@@ -29,6 +30,7 @@
     justify-items: center;
     justify-content: center;
     font-size: 50%;
+    cursor: pointer;
 }
 #links {
     float: left;

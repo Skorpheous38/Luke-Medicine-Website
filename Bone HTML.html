@@ -1,13 +1,22 @@
 <!DOCTYPE html>
 <html>
+    
     <head>
         <title>Luke Medicine</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="A website that meets your medical needs, such as the following: Oral Medications, Injectables, Inhalers, and more!">
+        <meta name="keywords" content="Luke Medicine, medicine, inhalers, oral medications, injectables">
+        <meta name="author" content="Joshua M. Esclamado">
+        <meta name="viewport" content="width=devince-width, initial-scale=1.0">
+        <meta http-equiv="refresh" content="960">
     </head>
+
     <link rel="stylesheet" type="text/css" href="Header.css">
     <link rel="stylesheet" type="text/css" href="NavigationBar.css">
     <link rel="stylesheet" type="text/css" href="MainContent.css">
     <link rel="stylesheet" type="text/css" href="SideContent.css">
     <link rel="stylesheet" type="text/css" href="Footer.css">
+    
     <script src="Header Script.js"></script>
     <script src="Navigation Bar Script.js"></script>
     <script src="Main Content Script.js"></script>
@@ -15,7 +24,7 @@
     <script src="Footer Script"></script>
     
     <body>
-        
+        <?php require 'Luke_Medicine_Database.php'?>
         <header>
         <div class="container">
             <br>
@@ -181,67 +190,107 @@
 
             <aside>
             </aside>
-            </section >
 
-            
-                
                 <div class="UserInput">
-                    <br>
                    
                     <h1 id="sign_up_label">Sign Up</h1>
-                <form action="">
-                    <div id="userinputdiv">
+                
+                    <form action="/Luke_Medicine_Database.php" method="get">
+                    
+                        <div id="userinputdiv">
+                            
+                                <div id="innerArrange">
+                                    <div id="form_labels">
+                                        <label id="label">Firstname</label><br>
+                                        <input type="text" placeholder="Enter Firstname" id="fname" name="fname">
+                                    </div>
+                                    
+                                    <div id="form_labels">
+                                        <label id="label">Lastname</label><br>
+                                        <input type="text" placeholder="Enter Lastname" id="lname" name="lname">
+                                    </div>
+                                    
+                                    <div id="form_labels">
+                                        <label id="label">Middle name</label><br>
+                                        <input type="text" placeholder="Enter Middle Name" id="middle name" name="midname">
+                                    </div>
 
-                        <div id="form_labels">
-                        <label id="label">Firstname</label>
-                        <input type="text" placeholder="Firstname here..." id="fname" name="fname">
-                        </div>
-                        
-                        <div id="form_labels">
-                        <label id="label">Lastname</label>
-                        <input type="text" placeholder="Lastname here..." id="lname" name="lname">
-                        </div>
-                        
-                        <div id="form_labels">
-                        <label id="label">Middle Initial</label>
-                        <input type="text" placeholder="Middlename here..." id="middleinitial" name="midin">
-                        </div>
-                        
-                        <div id="form_labels2">
-                        <label id="label">Gender</label>
-                        <select id="genderselect" name="genderselect">
-                            <option value="Male">Male</option>
-                            <option value="Female">Female</option>
-                        </select>
-                        </div>
-                        
-                        <div id="form_labels2">
-                        <label id="label">Birthdate</label>
-                        <input type="date" id="birthdate" name="birthdate">
-                        </div>
-                        
-                        <div id="form_labels2">
-                        <label id="label">Phone Number</label>
-                        <input type="number" placeholder="XXXX-XXXX-XXX" id="phonenumber" name="phonenumber">
-                        </div>
-                        
-                        <div id="form_labels2">
-                        <label id="label">Gmail</label>
-                        <input type="email" placeholder="Username@gmail.com" id="gmail" name="userGmail">
-                        </div>
-                        
-                        <div id="form_labels3">
-                        <label id="label">Home Address</label>
-                        <input type="text" id="homeaddress" placeholder="Home address here..." name="userHomeAddress">
-                       
+                                    <div id="agediv">
+                                        <label id="label">Age</label><br>
+                                        <input type="number" placeholder="Enter Age" id="age" name="age2">
+                                    </div>
+                                    
+                                    <div id="genderdiv">
+                                        <label id="label">Gender</label><br>
+                                        <select id="genderselect" name="genderselect">
+                                            <option value="Male">Male</option>
+                                            <option value="Female">Female</option>
+                                        </select>
+                                    </div>
+                                    
+                                    <div id="birthdaydiv">
+                                        <label id="label">Birthdate</label><br>
+                                        <input type="date" id="birthdate" name="birthdate">
+                                    </div>
+                                    
+                                    <div id="form_labels">
+                                        <label id="label">Phone Number</label><br>
+                                        <input type="number" placeholder="xxxx-xxxx-xxx" id="phonenumber" name="phonenumber">
+                                    </div>
+                                    
+                                    <div id="form_labels">
+                                        <label id="label">Email</label><br>
+                                        <input type="email" placeholder="Username@gmail.com" id="email" name="userEmail">
+                                    </div>
+                                    
+                                    <div id="form_labels">
+                                        <label id="label">Zone\Purok</label><br>
+                                        <input type="text" id="zone_or_purok" placeholder="Enter Zone\Purok" name="zone_or_purok2">
+                                    </div>
 
-                        <input type="submit" id="submitbutton" value="Submit" onclick="alert('Are you sure?')">
-                        <input id="resetbutton" type="reset" value="Reset">
+                                    <div id="form_labels">
+                                        <label id="label">Barangay</label><br>
+                                        <input type="text" id="barangay" placeholder="Enter Barangay" name="barangay2">
+                                    </div>
 
-                    </div>
-                    <br>
+                                    <div id="form_labels">
+                                        <label id="label">Province or City</label><br>
+                                        <input type="text" id="province_or_city" placeholder="Enter Province\City" name="province_or_city2">
+                                    </div>
+
+                                    <div id="mcdiv">
+                                        <label id="label">Do you have any Medical Cards?</label><br>
+                                        <select id="ifmc" name="haveMedicalCard">
+                                            <option value="Yes">Yes</option>
+                                            <option value="No">No</option>
+                                        </select>
+                                    </div>
+
+                                    <div id="mc2div">
+                                        <label id="label">Medical Card</label><br>
+                                        <select id="mc_select" name="medicalCard">
+                                            <option value="riseandshine">Rise and Shine</option>
+                                            <option value="healthiswealth">Health is Wealth</option>
+                                            <option value="innerjoy">Inner Joy</option>
+                                            <option value="freshday">Fresh Day</option>
+                                            <option value="wecare">We Care</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            
+                            
+                            <br>
+                            <br>
+
+                                <input type="submit" id="submitbutton" value="Submit" onclick="alert('Are you sure?')">
+
+                                <input id="resetbutton" type="reset" value="Reset">    
+
+                        </div>
+                        <br>
+                    </form>
                 </div>
-                </form>
+                
                 
         </main>
         <footer class="FooterClass">
