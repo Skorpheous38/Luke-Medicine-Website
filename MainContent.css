@@ -15,6 +15,8 @@
     padding-right: 5%;
     background-color: rgb(246, 245, 245);
     justify-self: center;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
 }
 
 #image_container {
@@ -25,64 +27,42 @@
     padding-top: 10%;
     padding-bottom: 10%;
     z-index: -1;
-    background-image: url('https://plus.unsplash.com/premium_photo-1668487826871-2f2cac23ad56?q=80&w=2012&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-image: url('https://images.pexels.com/photos/4058363/pexels-photo-4058363.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
     background-size: 100%;
 }
 
+
+
 #previousButton {
+    float: left;
+    display: block;
+    border: none;
+    height: 75px;
+    width: 7.5%;
+    cursor: pointer;
     background-color: rgb(20, 108, 148);
     color: white;
-    border-style: none;
-    width: 100%;
-    height: 100%;
-    font-size: 30px;
-    font-weight: 35px;
+    margin-left: -14.5%;
+    font-size: 175%;
 }
-
-#previousButton:active {
-    box-shadow: 5px 5px 10px rgb(255, 255, 255) inset;
-}
-
 #previousButton:hover {
-    background-color: rgb(22, 135, 167);
-    color: white;
+    background-color: rgb(25, 167, 206);
 }
 
 #nextButton {
+    cursor: pointer;
+    display: block;
+    border: none;
+    height: 75px;
+    width: 7.5%;
     background-color: rgb(20, 108, 148);
     color: white;
-    border-style: none;
-    width: 100%;
-    height: 100%;
-    font-size: 30px;
-    font-weight: 75px;
+    margin-left: 107%;
+    font-size: 175%;
 }
-
-#nextButton:active {
-    box-shadow: 5px 5px 10px rgb(255, 255, 255) inset;
-}
-
 #nextButton:hover {
-    background-color: rgb(22, 135, 167);
-    color: white;
+    background-color: rgb(25, 167, 206);
 }
-
-#image_slider_button1 {
-    height: 10%;
-    width: 5%;
-    top: 50%;
-    text-align: center;
-    z-index: 1;
-}
-
-#image_slider_button2 {
-    height: 10%;
-    width: 5%;
-    top: 50%;
-    text-align: center;
-    z-index: 1;
-}
-
 
 
 
@@ -158,9 +138,6 @@
     margin-bottom: 1.5%;
 }
 #submitbutton:hover {
-    border-style: solid;
-    border-color: white;
-    border-width: auto;
     background-color: rgb(175, 211, 226);
 }
 #resetbutton {
@@ -176,9 +153,6 @@
     margin-bottom: 1.5%;
 }
 #resetbutton:hover {
-    border-style: solid;
-    border-color: white;
-    border-width: auto;
     background-color: #fdb6ae;
 }
 
