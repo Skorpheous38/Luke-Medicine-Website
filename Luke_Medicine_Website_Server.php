@@ -41,7 +41,7 @@ echo $_SERVER['PATH_TRANSLATED'];
 
 
 
-//Request Data from the Form
+//Request Form Data
 
 $first_name = $_REQUEST['fname'];
 $last_name = $_REQUEST['lname'];
@@ -59,7 +59,7 @@ $user_medical_card = $_REQUEST['medicalCard'];
 
 
 
-//Obtain Data fro the Form
+//Obtain Form Data
 
 $first_name2 = $_POST['fname'];
 $last_name2 = $_POST['lname'];
@@ -74,5 +74,4 @@ $barangay2 = $_POST['barangay'];
 $province_city2 = $_POST['province_or_city'];
 $have_medical_card2 = $_POST['haveMedicalCard'];
 $user_medical_card2 = $_POST['medicalCard'];
-
 ?>
