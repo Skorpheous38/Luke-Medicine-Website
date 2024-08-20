@@ -1,31 +1,6 @@
 <? php 
 
-function record_customer() {
 
-    $customer_record = [];
-
-    $first_name = "INSERT INTO Customer(Firstname) VALUES ($_POST['fname'])";
-    $last_name = "INSERT INTO Customer(Lastname) VALUES ($_POST['lname'])";
-    $middle_name = "INSERT INTO Customer(Middlename) VALUES ($_POST['midname'])";
-    $user_age = "INSERT INTO Customer(Age) VALUES ($_POST['age'])";
-    $user_gender = "INSERT INTO Customer(Gender) VALUES ($_POST['genderselect'])";
-    $phone_number = "INSERT INTO Customer(Phonenumber) VALUES ($_POST['phonenumber'])";
-
-    array_push($customer_record, $first_name, $last_name, $middle_name, $user_age, $user_gender, $phone_number);
-    
-    foreach ($customer_record as $variable) {
-        if ($connect_server -> query($variable) === TRUE) {
-
-            echo "$variable is inserted." . "\n";
-
-        } else {
-
-            echo "$variable is rejected." . "\n" . $connect_server -> error;
-
-        }
-    }
-    
-}
 
 //Database Admin Test Sign In
 
@@ -148,6 +123,10 @@ CREATE TABLE Transaction (
 "
 $array_of_tables = array($table1, $table2, $table3, $table4, $table5, $table6);
 
+
+
+//Query the Database
+
 foreach ($array_of_tables as $variable) {
 
     if ($connect_server -> query($variable) === TRUE) {
@@ -176,7 +155,34 @@ $province_city2 = $_POST['province_or_city'];
 $have_medical_card2 = $_POST['haveMedicalCard'];
 $user_medical_card2 = $_POST['medicalCard'];
 
+function record_customer() {
 
+    $customer_record = [];
+
+    $first_name = "INSERT INTO Customer(Firstname) VALUES ($_POST['fname'])";
+    $last_name = "INSERT INTO Customer(Lastname) VALUES ($_POST['lname'])";
+    $middle_name = "INSERT INTO Customer(Middlename) VALUES ($_POST['midname'])";
+    $user_age = "INSERT INTO Customer(Age) VALUES ($_POST['age'])";
+    $user_gender = "INSERT INTO Customer(Gender) VALUES ($_POST['genderselect'])";
+    $phone_number = "INSERT INTO Customer(Phonenumber) VALUES ($_POST['phonenumber'])";
+
+    array_push($customer_record, $first_name, $last_name, $middle_name, $user_age, $user_gender, $phone_number);
+    
+    foreach ($customer_record as $variable) {
+        if ($connect_server -> query($variable) === TRUE) {
+
+            echo "$variable is inserted." . "\n";
+
+        } else {
+
+            echo "$variable is rejected." . "\n" . $connect_server -> error;
+
+        }
+    }
+
+}
+
+record_customer();
 
 //Server Specification
 
@@ -235,4 +241,5 @@ $user_medical_card = $_REQUEST['medicalCard'];
 
 
 $connect_server -> close();
+
 ?>
