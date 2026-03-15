@@ -1,0 +1,31 @@
+<?php
+include 'connect.php';
+
+$First_name    = mysqli_real_escape_string($conn, $_POST['First_name']);
+$Last_name     = mysqli_real_escape_string($conn, $_POST['Last_name']);
+$Middle_name   = mysqli_real_escape_string($conn, $_POST['Middle_name']);
+$Age           = mysqli_real_escape_string($conn, $_POST['Age']);
+$Select_Gender = mysqli_real_escape_string($conn, $_POST['Select_Gender']);
+$Birth_date    = mysqli_real_escape_string($conn, $_POST['Birth_date']);
+$Phone_Number  = mysqli_real_escape_string($conn, $_POST['Phone_Number']);
+$User_email     = mysqli_real_escape_string($conn, $_POST['User_email']);
+$course        = mysqli_real_escape_string($conn, $_POST['course']);
+$Level_of_education = mysqli_real_escape_string($conn, $_POST['Level_of_education']);
+$zone_or_purok = mysqli_real_escape_string($conn, $_POST['zone_or_purok']);
+$barangay      = mysqli_real_escape_string($conn, $_POST['barangay']);
+$province_or_city = mysqli_real_escape_string($conn, $_POST['province_or_city']);
+$haveMedicalCard = mysqli_real_escape_string($conn, $_POST['haveMedicalCard']);
+$medicalCard = mysqli_real_escape_string($conn, $_POST['medicalCard']);
+
+
+$sql = "INSERT INTO students (First_name, Last_name, Middle_name, Age, Select_Gender, Birth_date, Phone_Number, User_email, course, Level_of_education, zone_or_purok, barangay, province_or_city, haveMedicalCard, medicalCard) 
+        VALUES ('$First_name', '$Last_name', '$Middle_name', '$Age', '$Select_Gender', '$Birth_date', '$Phone_Number', '$User_email', '$course', '$Level_of_education', '$zone_or_purok', '$barangay', '$province_or_city', '$haveMedicalCard', '$medicalCard')";
+
+if (mysqli_query($conn, $sql)) {
+    echo "Form submitted successfully!";
+} else {
+    echo "Error: " . mysqli_error($conn);
+}
+
+mysqli_close($conn);
+?>

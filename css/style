@@ -1,0 +1,527 @@
+#navbarbutton {
+    background-color: rgb(246, 241, 241);
+    color: rgb(20, 108, 148);
+    border-radius: 5px;
+    border: none;
+    width: 20%;
+    height: 40%;
+    font-size: 75%;
+    text-align: center;
+    cursor: pointer;
+}
+#navlogo {
+    border-radius: 60%;
+    width: 15%;
+    height: 50%;
+    justify-self: left;
+}
+#navbarbutton:active {
+    background-color: rgb(246, 241, 241);
+    box-shadow: 5px 5px 5px rgb(211, 211, 211) inset;
+    font-size: 70%;
+}
+.navbutton {
+    color: rgb(246, 241, 241);
+    background-color: rgb(25, 167, 206);
+    border: none;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    font-size: 50%;
+    cursor: pointer;
+}
+#links {
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#dropdown2 .navbutton {
+    border: none;
+    outline: none;
+    font-size: 125%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#dropdown2:hover .navbutton {
+    background-color: rgb(20, 108, 148);
+    color: white;
+}
+.dropdown {
+    color: rgb(20, 108, 148);
+    position: absolute;
+    display: none;
+    background-color: rgb(246, 241, 241);
+    z-index: 5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 25%;
+}
+.dropdown h4 a {
+    padding-left: 50%;
+    padding-right: 50%;
+}
+.dropdown a {
+    line-height: 1.5px;
+    font-size: 95%;
+}
+.dropdown h4 {
+    text-align: center;
+    font-size: 120%;
+}
+.dropdown a {
+    float: none;
+    color: rgb(20, 108, 148);
+    text-decoration: none;
+    padding: 20px 20px;
+    display: block;
+    text-align: left;
+    font-size: 95%;
+}
+.dropdown a:hover {
+    background-color: rgb(25, 167, 206);
+    color: white;
+}
+.dropdown a:active {
+    background-color: rgb(175, 211, 226);
+    color: white;
+}
+#dropdown2:hover .dropdown {
+    display: block;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: rgb(246, 241, 241);
+}
+#dropdown2 {
+    float: left;
+    width: 12%;
+    height: 100%;
+    padding-left: 2%;
+}
+#searchbar {
+    border-color: rgb(175, 211, 226);
+    background-color: rgb(246, 241, 241);
+    width: 70%;
+    height: 35%;
+    border-radius: 5px;
+}
+#thesearchbar {
+    float: right;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+.TheNavigation {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 50px;
+}
+#theNavDiv {
+    background-color: rgb(25, 167, 206);
+    width: 100%;
+    overflow: auto;
+    height: 100%;
+    justify-content: center;
+}
+.naverlin {
+    border-left: 5px dotted rgb(175, 211, 226);
+    height: 250px;
+    float: left;
+    opacity: 0.2px;
+    border-width: 1px;
+}
+
+
+.container {
+    position: relative;
+    text-align: center;
+    background-color: rgb(246, 241, 241);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url('images/photo-1628882836842-d5ffd7c7278e.avif');
+}
+
+#HeadTitle {
+    color: rgb(20, 108, 148);
+    font-size: 300%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+#TheSlogan {
+    color: rgb(20, 108, 148);
+    font-size: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+#HeaderText {
+    line-height: 150%;
+}
+
+#videomain {
+    opacity: 0.5;
+    position: relative;
+    background-size: contain;
+}
+
+.section-label {
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: #888;
+  text-transform: uppercase;
+  padding: 8px 16px 4px;
+  pointer-events: none; /* not clickable */
+}
+
+.divider {
+  border-top: 1px solid #ddd;
+  margin: 4px 0;
+}
+
+#slide_show {
+    width: 100%;
+    height: 35%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: rgb(246, 245, 245);
+    justify-self: center;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+#image_container {
+    width: 70%;
+    height: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    z-index: -1;
+    background-image: url('images/e520dc1ee6a548b7b7e094995dd513b4.jpg');
+    background-size: 100%;
+}
+
+
+
+#previousButton {
+    float: left;
+    display: block;
+    border: none;
+    height: 75px;
+    width: 7.5%;
+    cursor: pointer;
+    background-color: rgb(20, 108, 148);
+    color: white;
+    margin-left: -14.5%;
+    font-size: 175%;
+}
+#previousButton:hover {
+    background-color: rgb(25, 167, 206);
+}
+
+#nextButton {
+    cursor: pointer;
+    display: block;
+    border: none;
+    height: 75px;
+    width: 7.5%;
+    background-color: rgb(20, 108, 148);
+    color: white;
+    margin-left: 107%;
+    font-size: 175%;
+}
+#nextButton:hover {
+    background-color: rgb(25, 167, 206);
+}
+
+
+
+
+#image_here {
+    background-color: rgb(158, 158, 158);
+    color: rgb(65, 201, 226);
+}
+
+#videoinmain {
+    width: 75%;
+    height: 50%;
+    text-align: center;
+    background-size: cover;
+}
+
+#userinputdiv {
+    background-image: url('images/45e8b5b5983b7c649f0812ee74fbba42.jpg');
+    background-repeat: no-repeat;
+    justify-content: center;
+    width: 50%;
+    height: 30%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 9%;
+    padding-right: 9%;
+    margin-left: 15%;
+    margin-right: 10%;
+    position: static;
+}
+
+#label {
+    color: rgb(20, 108, 148);
+    text-align: left;
+}
+
+#blogImage {
+    width: 350px;
+    height: 250px;
+}
+
+.UserInput {
+    background-color: rgb(246, 241, 241);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    height: 30%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    justify-self: center;
+    color: rgb(39, 102, 120);
+}
+
+#sign_up_label {
+    text-align: center;
+}
+
+#fname #lname #middleInitial #birtdate #phonenumber #email #zone_or_purok #barangay #province_or_city {
+    width: 50%;
+    border: 1px solid rgb(20, 108, 148);
+}
+
+
+
+#submitbutton {
+    border: none;
+    display: block;
+    color: white;
+    background-color: rgb(25, 167, 206);
+    cursor: pointer;
+    padding: 1.5% 1.5%;
+    width: 85%;
+    font-size: 125%;
+    margin-left: 7.5%;
+    margin-bottom: 1.5%;
+}
+#submitbutton:hover {
+    background-color: rgb(175, 211, 226);
+}
+#resetbutton {
+    border: none;
+    display: block;
+    color: white;
+    background-color: #FA8072;
+    cursor: pointer;
+    padding: 1.5% 1.5%;
+    width: 85%;
+    font-size: 125%;
+    margin-left: 7.5%;
+    margin-bottom: 1.5%;
+}
+#resetbutton:hover {
+    background-color: #fdb6ae;
+}
+
+
+.UserInput h1 {
+    font-size: 250%;
+}
+.UserInput #label {
+    font-weight: 500;
+    font-size: 125%;
+}
+.UserInput input {
+    border: none;
+}
+#form_labels {
+    padding-left: 20%;
+    padding-right: 7.5%; 
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-left: 5%; 
+    margin: 1%;
+
+}
+#form_labels input {
+    width: 85%;
+    height: 1%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+}
+#agediv input {
+    width: 12%;
+    height: 25%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+}
+#agediv {
+    margin: 1%;
+    padding-left: 20%;
+}
+#genderdiv select {
+    width: 10%;
+    height: 25%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+
+}
+#genderdiv {
+    margin: 1%;
+    padding-left: 20%;
+}
+#agediv {
+    margin: 1%;
+    padding-left: 20%;
+}
+#mcdiv select {
+    width: 10%;
+    height: 25%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+}
+#mcdiv {
+    margin: 1%;
+    padding-left: 20%;
+}
+#mc2div select {
+    width: 20%;
+    height: 25%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+}
+#mc2div {
+    margin: 1%;
+    padding-left: 20%;
+}
+#birthdaydiv input {
+    width: 20%;
+    height: 25%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+}
+#birthdaydiv {
+    margin: 1%;
+    padding-left: 20%;
+}
+#form_labels2 {
+    padding-left: 7.5%;
+    padding-right: 1%;  
+    padding-top: 5%;
+    padding-bottom: 1%; 
+}
+#innerArrange {
+    text-align: left;
+    background-color: rgb(246, 241, 241);
+    width: 75%;
+    height: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-left: 7.5%;
+}
+
+#side_panel::-webkit-scrollbar-thumb {
+    background: var(--color-accent);
+    border-radius: 4px;
+}
+ 
+.aside_title {
+    color: var(--color-accent);
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    margin-bottom: 14px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid var(--color-accent);
+}
+ 
+.aside_item {
+    margin-bottom: 14px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid var(--color-border);
+}
+ 
+.aside_item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+ 
+.aside_item p {
+    color: var(--color-muted-text);
+    font-size: 13px;
+    line-height: 1.5;
+    margin-top: 5px;
+}
+ 
+/* Tag badges */
+.aside_tag {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--color-light-text);
+    background-color: var(--color-card-bg);
+}
+ 
+.aside_tag.new      { background-color: #27ae60; }
+.aside_tag.event    { background-color: #2980b9; }
+.aside_tag.reminder { background-color: #8e44ad; }
+.aside_tag.alert    { background-color: var(--color-accent); }
+ 
+/* =====================================================================
+   RESPONSIVE — stack on smaller screens
+   ===================================================================== */
+ 
+@media (max-width: 900px) {
+    #slideshow_layout {
+        flex-direction: column;
+        align-items: center;
+    }
+ 
+    #slide_show,
+    #side_panel {
+        width: 100%;
+        max-width: 600px;
+    }
+ 
+    #side_panel {
+        height: auto;
+    }
+}
+
+s.FooterClass {
+    background-color: rgb(246, 241, 241);
+    text-align: center;
+}
+
+#footdiv {
+    color: rgb(20, 108, 148);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: left;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}
+#footdiv a {
+    text-decoration: none;
+    color: rgb(20, 108, 148);
+    line-height: 30px;
+}
+#footdivh {
+    font-size: 25px;
+}

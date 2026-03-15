@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- -------------------------------------------------------------------------------------------------------------------------------------------- -->
+<!-- ==================================================================== Header ================================================================ -->
+
+<head>
+
+    <title>Student Record Management System</title>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="A website that meets your medical needs, such as the following: Oral Medications, Injectables, Inhalers, and more!">
+    <meta name="keywords" content="Luke Medicine, medicine, inhalers, oral medications, injectables">
+    <meta name="author" content="Joshua M. Esclamado">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="960">
+    <link rel="icon" type="image/jpeg" href="images/370b8cff97906041f96356c356c9123f.jpg">
+
+    <link rel="stylesheet" href="css/style.css">
+   
+</head>
+
+<body>
+
+    <!-- -------------------------------------------------------------------------------------------------------------------------------------------- -->
+    <!-- ==================================================================== Header ================================================================ -->
+
+    <header>
+        <div class="container">
+            <br>
+            <div id="HeaderText">
+                <div><h1 id="HeadTitle">Student Record Management System</h1></div>
+                <div><p id="TheSlogan">Manage student records efficiently.</p></div>
+                <br>
+            </div>
+        </div>
+    </header>
+
+    <!-- -------------------------------------------------------------------------------------------------------------------------------------------- -->
+    <!-- ================================================================ Navigation Bar ============================================================ -->
+
+   <div id="dropdown2">
+    <button class="navbutton">About Us</button>
+    <div class="dropdown">
+        <a href="">Founder</a>
+        <a href="">Progress</a>
+        <a href="">Global Extension</a>
+    </div>
+</div>
+
+<div id="dropdown2">
+    <button class="navbutton">Addmissions</button>
+    <div class="dropdown">
+        <div id="links">
+            <h4>Requirements</h4>
+            <a href="">Entrance Exam</a>
+            <a href="">Documents</a>
+        </div>
+        <div class="naverlin"></div>
+        <div id="links">
+            <h4>Application</h4>
+            <a href="">Online Application</a>
+            <a href="">Walk-in Application</a>
+        </div>
+        <div class="naverlin"></div>
+        <div id="links">
+            <h4>Financial Aid</h4>
+            <a href="">Scholarship</a>
+            <a href="">Student Loan</a>
+            <a href="">Discount</a>
+        </div>
+        <div class="naverlin"></div>
+        <div id="links">
+            <h4>Tuition</h4>
+            <a href="">Fee Structure</a>
+            <a href="">Payment Options</a>
+        </div>
+    </div>
+</div>
+
+<div id="dropdown2">
+    <button class="navbutton">Academics</button>
+    <div class="dropdown">
+        <div id="links">
+            <h4>Engineering</h4>
+            <a href="">Civil Engineering</a>
+            <a href="">Computer Engineering</a>
+            <a href="">Electrical Engineering</a>
+            <a href="">Mechanical Engineering</a>
+            <a href="">Architecture</a>
+            <a href="">Electronics Engineering</a>
+        </div>
+        <div class="naverlin"></div>
+        <div id="links">
+            <h4>Science</h4>
+            <a href="">Biology</a>
+            <a href="">Chemistry</a>
+            <a href="">Physics</a>
+            <a href="">Mathematics</a>
+            <a href="">Computer Science</a>
+            <a href="">Data Science</a>
+        </div>
+        <div class="naverlin"></div>
+        <div id="links">
+            <h4>Technology</h4>
+            <a href="">Software Engineering</a>
+            <a href="">Information Technology</a>
+            <a href="">Information Systems</a>
+            <a href="">Technology, Communications, and Management</a>
+        </div> 
+    </div>
+</div>
+
+<div id="dropdown2">
+    <button class="navbutton">Home</button>
+    <div class="dropdown">
+        <div id="links">
+            <h4>Students Services</h4>
+            <a href="">Student Portal</a>
+            <a href="">Course Catalog</a>
+            <a href="">Academic Calendar</a>
+            <a href="">Library</a>
+            <a href="">Scholarship</a>
+        </div>
+        </div>
+    </div>
+</div>
+
+<div id="dropdown2">
+    <button class="navbutton">Extra Curricular</button>
+    <div class="dropdown">
+        <div id="links">
+            <h4>Fraternity and Sorority</h4>
+            <a href="">Soaring Eagles</a>
+            <a href="">Alpha Phi</a>
+            <a href="">Beta Sigma</a>
+        </div>
+        <div id="links">
+            <h4>Clubs and Organizations</h4>
+            <a href="">Debate Team</a>
+            <a href="">Robotics Club</a>
+            <a href="">Art Club</a>
+        </div>
+    </div>
+</div>
+
+<div id="dropdown2">
+    <button class="navbutton">International Students
+    </button>
+    <div class="dropdown">
+        <div id="links">
+            <h4>International Students</h4>
+            <a href="">Visa Information</a>
+            <a href="">Academic Support</a>
+            <a href="">Cultural Events</a>
+        </div>
+    </div>
+</div>
+
+    <!-- ------------------------------------------------------------------------------------------------------------------------------------- -->
+    <!-- ======================================================== Main Content =============================================================== -->
+
+    <main>
+
+        <!-- ============================================================ Slideshow + Aside Layout =========================================== -->
+
+        <div id="slideshow_layout">
+
+            <!-- Slideshow (centered) -->
+            <div id="slide_show">
+                <div id="image_container">
+
+                    <!--
+                    =====================================================================
+                    SLIDESHOW IMAGES — Change the src paths below to your own images.
+                    You can also update them in Slideshow.css under the :root block.
+                    Add or remove <div class="slide"> blocks to add/remove slides.
+                    Remember to add a matching <span class="dot"> in #slide_dots too.
+                    =====================================================================
+                    -->
+                    <div class="slide active">
+                        <img class="slide-img" src="images/slide1.jpg" alt="Slide 1">
+                    </div>
+                    <div class="slide">
+                        <img class="slide-img" src="images/slide2.jpg" alt="Slide 2">
+                    </div>
+                    <div class="slide">
+                        <img class="slide-img" src="images/slide3.jpg" alt="Slide 3">
+                    </div>
+                    <div class="slide">
+                        <img class="slide-img" src="images/slide4.jpg" alt="Slide 4">
+                    </div>
+
+                    <button id="previousButton" onclick="theDecrementButton()">&#8249;</button>
+                    <button id="nextButton" onclick="theIncrementButton()">&#8250;</button>
+
+                    <!-- Dot indicators — one per slide -->
+                    <div id="slide_dots">
+                        <span class="dot active" onclick="goToSlide(0)"></span>
+                        <span class="dot" onclick="goToSlide(1)"></span>
+                        <span class="dot" onclick="goToSlide(2)"></span>
+                        <span class="dot" onclick="goToSlide(3)"></span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- ------------------------------------------------------------------------------------------------------------------------------------- -->
+        <!-- ============================================================ Form =================================================================== -->
+
+        <div class="UserInput">
+
+            <h1 id="sign_up_label">Enrollment</h1>
+
+            <form action="php/submit.php" method="post">
+
+                <div id="userinputdiv">
+
+                    <div id="innerArrange">
+
+                        <div id="form_labels">
+                            <label id="label">Firstname</label><br>
+                            <input type="text" placeholder="Enter Firstname" id="fname" name="First_name">
+                        </div>
+
+                        <div id="form_labels">
+                            <label id="label">Lastname</label><br>
+                            <input type="text" placeholder="Enter Lastname" id="lname" name="Last_name">
+                        </div>
+
+                        <div id="form_labels">
+                            <label id="label">Middle name</label><br>
+                            <input type="text" placeholder="Enter Middle Name" id="middle name" name="Middle_name">
+                        </div>
+
+                        <div id="agediv">
+                            <label id="label">Age</label><br>
+                            <input type="number" placeholder="Enter Age" id="age" name="Age">
+                        </div>
+
+                        <div id="genderdiv">
+                            <label id="label">Gender</label><br>
+                            <select id="genderselect" name="Select_Gender">
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                            </select>
+                        </div>
+
+                        <div id="birthdaydiv">
+                            <label id="label">Birthdate</label><br>
+                            <input type="date" id="birthdate" name="Birth_date">
+                        </div>
+
+                        <div id="form_labels">
+                            <label id="label">Phone Number</label><br>
+                            <input type="number" placeholder="xxxx-xxxx-xxx" id="phonenumber" name="Phone_Number">
+                        </div>
+
+                        <div id="form_labels">
+                            <label id="label">Email</label><br>
+                            <input type="email" placeholder="Username@gmail.com" id="email" name="User_email">
+                        </div>
+
+                        <div id="form_labels">
+                            <label id="label">Course</label><br>
+                            <select id="course" name="course">
+                                <optgroup id="label" label="Engineering">
+                                    <option>Civil Engineering</option>
+                                    <option>Mechanical Engineering</option>
+                                    <option>Electrical Engineering</option>
+                                    <option>Architecture</option>
+                                    <option>Electronics Engineering</option>
+                                    <option>Electrical Engineering</option>
+                                </optgroup>
+                                <optgroup id="label" label="Sciences">
+                                    <option>Biology</option>
+                                    <option>Chemistry</option>
+                                    <option>Physics</option>
+                                    <option>Mathematics</option>
+                                    <option>Computer Science</option>
+                                    <option>Data Science</option>
+                                </optgroup>
+                                <optgroup id="label" label="Technology">
+                                    <option>Software Engineering</option>
+                                    <option>Information Technology</option>
+                                    <option>Information Systems</option>
+                                    <option>Technology, Communications, and Management</option>
+                                </optgroup>
+                            </select>
+                        </div>
+
+                        <div id="mcdiv">
+                            <label id="label">Level of Education</label><br>
+                            <select id="ifmc" name="LevelOfEducation">
+                                <option value="Undergraduate">Undergraduate</option>
+                                <option value="Graduate">Graduate</option>
+                            </select>
+                        </div>
+
+                        <div id="form_labels">
+                            <label id="label">Zone\Purok</label><br>
+                            <input type="text" id="zone_or_purok" placeholder="Enter Zone\Purok" name="zone_or_purok">
+                        </div>
+
+                        <div id="form_labels">
+                            <label id="label">Barangay</label><br>
+                            <input type="text" id="barangay" placeholder="Enter Barangay" name="barangay">
+                        </div>
+
+                        <div id="form_labels">
+                            <label id="label">Province or City</label><br>
+                            <input type="text" id="province_or_city" placeholder="Enter Province\City" name="province_or_city">
+                        </div>
+
+                        <div id="mcdiv">
+                            <label id="label">Do you have any Medical Cards?</label><br>
+                            <select id="ifmc" name="haveMedicalCard">
+                                <option value="Yes">Yes</option>
+                                <option value="No">No</option>
+                            </select>
+                        </div>
+
+                        <div id="mc2div">
+                            <label id="label">Medical Card</label><br>
+                            <select id="mc_select" name="medicalCard">
+                                <option value="riseandshine">Rise and Shine</option>
+                                <option value="healthiswealth">Health is Wealth</option>
+                                <option value="innerjoy">Inner Joy</option>
+                                <option value="freshday">Fresh Day</option>
+                                <option value="wecare">We Care</option>
+                            </select>
+                        </div>
+
+                    </div>
+
+                    <br>
+                    <br>
+
+                    <input type="submit" id="submitbutton" value="Submit" onclick="alert('Are you sure?')">
+                    <input id="resetbutton" type="reset" value="Reset">
+
+                </div>
+                <br>
+            </form>
+        </div>
+
+    </main>
+
+    <!-- ------------------------------------------------------------------------------------------------------------------------------- -->
+    <!-- ======================================================== Footer =============================================================== -->
+
+    <footer class="FooterClass">
+
+        <div id="footdiv">
+            <h3 id="footdivh">Contact Us</h3>
+            <p>Phone Number: 3553-4534-34</p>
+            <address><p>Main Office Address: Dalandan, Bacan, Vishta</p></address>
+            <address><p>Gmail Address: <a href="mailto:example@gmail.com">example@gmail.com</a></p></address>
+        </div>
+
+        <div id="footdiv">
+            <h3 id="footdivh">Join Us</h3>
+            <a href="">Careers</a>
+            <br>
+            <a href="">Branches</a>
+            <br>
+            <a href="">Participate</a>
+        </div>
+
+        <div id="footdiv">
+            <h3 id="footdivh">Follow Us</h3>
+            <a href="">Facebook</a>
+            <br>
+            <a href="">Twitter</a>
+            <br>
+            <a href="">Instagram</a>
+        </div>
+
+    </footer>
+
+</body>
+</html>
